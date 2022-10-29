@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("img/cinema-background.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+  padding: 220px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: -120px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.cart {
+  width: 60%;
+  padding-top: 30px;
+  position: relative;
+  height: auto;
+}
+
+.single-item {
+  text-align: center;
+  width: 400px;
+  border-bottom: 1px solid grey;
+  padding: 15px 0;
+  max-width: 100%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.single-item img {
+  max-width: 120px;
+}
+
+.single-item .si-content {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.single-item .si-content p {
+  font-size: 18px;
+}
+
+.single-item .actions {
+  width: 30%;
+}
+
+.single-item .actions input {
+  height: 40px;
+  width: 60px;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 95px;
+}
+
+.single-item .actions button {
+  width: 60px;
+  margin-top: 10px;
+  height: 30px;
+  font-size: 16px;
+  margin-left: 95px;
+}
+
+.cart-single-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cart-single-item h3 {
+  margin-bottom: 0;
+}
+
+.cart-single-item button {
+  padding: 5px;
+}
+
+.total {
+  text-align: center;
+  position: absolute;
+  bottom: -95px;
+  right: 50%;
+  font-size: 24px;
+  color: blue;
+}
+
+.cart-items {
+  color: white;
+  height: 100px;
+}
+
+.cart h2 {
+  padding-top: 50px;
+}
+
+ion-icon {
+  color: blue;
+  font-size: 20px;
+  margin-right: 5px;
+}
